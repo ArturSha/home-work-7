@@ -1,0 +1,81 @@
+@media (max-width: 995px) {
+  .technology-container {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 900px) {
+  .header {
+    padding: 60px 5px 70px;
+  }
+  .header-container {
+    justify-content: space-evenly;
+    gap: 35px 15px;
+  }
+
+  .header__numbers {
+    font-weight: 400;
+    font-size: 7rem;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+  .header__subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .technology-container {
+    justify-content: center;
+  }
+  .technology-conteiner-img {
+    height: 460px;
+    padding: 0 10px;
+  }
+  .technology__img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .technology {
+    padding-top: 10px;
+  }
+  .technology-container-description {
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 20px 5px;
+  }
+
+  .header__numbers {
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 50px;
+  }
+
+  .header__subtitle {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .__subtitle {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 20px;
+  }
+
+  .technology-conteiner-img {
+    height: 350px;
+  }
+
+  .technology__img {
+    max-width: 250px;
+  }
+}

@@ -1,0 +1,67 @@
+.header {
+  background-color: #ff5437;
+  padding: 80px 5px 100px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1015px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header__numbers {
+  margin-bottom: 20px;
+}
+
+/*----------------------- Technology -----------------------*/
+.technology {
+  padding-top: 100px;
+}
+
+.technology-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1168px;
+  margin: 0 auto;
+  padding: 0 100px 0 78px;
+}
+
+.technology-container-description {
+  max-width: 420px;
+  padding: 77px 11px 0 0;
+}
+
+.technology-container-description .__title {
+  margin-bottom: 5px;
+}
+
+.technology-container-description .__subtitle {
+  margin-bottom: 15px;
+}
+.technology-container-description .__text {
+  margin-bottom: 10px;
+}
+
+.technology-conteiner-img {
+  height: 545px;
+  overflow: hidden;
+}
+
+.technology-conteiner-img img {
+  width: 100%;
+}
+
+/* --------------------reverse-------------------- */
+
+.technology._grey {
+  background-color: #f2f2f2;
+}
+.technology-container._reverse {
+  flex-direction: row-reverse;
+}
+/* .test {
+  background-color: red;
+  Проблема с артефактом под нижней картинкой 
+} */
